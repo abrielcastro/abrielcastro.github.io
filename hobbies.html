@@ -75,16 +75,28 @@
             background-color: #ddd;
             color: black;
         }
+
+        /* Style for photos */
+        .hobby-photo {
+            display: block;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1> Hobbies </h1>
     </header>
-    <p>Pickleball</p>
-    <p>Snow Skiing</p>
-    <p>Golf <img src="golf.jpg" alt="Golf Photo" style="width: 100px; height: auto;"></p>
-    <p>Travelling <img src="cancun.jpg" alt="Travelling Photo" style="width: 150px; height: auto;"></p>
+    <div>
+        <p>Pickleball</p>
+        <p>Snow Skiing</p>
+        <p>Golf</p>
+        <img src="golf.jpg" alt="Golf" class="hobby-photo">
+    </div>
+    <div>
+        <p>Travelling</p>
+        <img src="cancun.jpg" alt="Travelling" class="hobby-photo">
+    </div>
     <p>Baking</p>
     <p>Pilates</p>
     <p>Reading</p>
